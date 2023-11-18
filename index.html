@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div" style="text-align: center;">
+       
+            <p id="title">SNAKE WATER GUN</p>
+            
+            <p class="text">Instructions:</p>
+            <P class="text-intro">1.Snake beats Water <br>2. Water beats Gun <br>3. and Gun beats Snake</P>
+        
+            <p  class="text">Lets Go!</p>
+        <button class="btn-move parent" 
+            onclick="PickplayerMove('snake');">
+            <img class="icons-move child" src="images/snakee-removebg-preview.png">
+        </button>
+            <button class="btn-move" onclick="PickplayerMove('gun');
+          
+            "><img class="icons-move"  src="images/gun-removebg-preview.png"></button>
+
+
+            <button class="btn-move" onclick="PickplayerMove('water');
+            
+            "><img class="icons-move"  src="images/drops-removebg-preview.png"></button>
+        
+            <p class="js-result cs-result"></p>
+            <p class="js-moves cs-moves"></p>
+            <p class="js-score cs-moves"></p>
+            <button class="reset-btn" onclick="resetScore();
+               ">RESET</button>
+    
+
+        </div>
+   
+    <script src="Swg.js"></script>
+    
+</body>
+</html>

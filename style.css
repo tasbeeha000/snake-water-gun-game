@@ -1,0 +1,80 @@
+body{
+    background-image: url(images/bg-4.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#title{
+font-size: 33px;
+
+
+font-weight: bold;
+transition: 0.3s;
+}
+
+
+.text{
+font-size: 18px;
+
+}
+.text-intro{
+font-size: 17px;
+
+}
+.icons-move{
+height: 60px;
+}
+.btn-move{
+background-color: transparent;
+border: 3px solid white;
+padding:10px ;
+margin: 10px;
+}
+.btn-move:hover{
+background-color:rgb(130, 25, 130);
+cursor: pointer;
+
+}
+.btn-move:active{
+background-color:rgb(166, 115, 166);
+cursor: pointer;
+
+}
+
+.reset-btn{
+background-color: white;
+color: rgb(197, 64, 197);
+padding: 10px 30px 10px 30px;
+font: 30px;
+border: none;
+font-weight:900;
+
+}
+.reset-btn:hover{
+background-color: transparent;
+color: rgb(244, 244, 244);
+border: 2px white solid;
+cursor: pointer;
+}
+.parent{
+overflow:hidden;
+position:relative;
+display:inline-block;
+cursor:pointer;
+}
+.child{
+
+background-size:cover;
+transition:all 0.1s;
+}
+
+.cs-result{
+font-size:20px ;
+}
+.cs-moves{
+font-size:17px ;
+}
